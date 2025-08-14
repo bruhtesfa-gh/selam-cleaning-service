@@ -4,6 +4,8 @@ import localFont from "next/font/local";
 import { cn } from "@/lib/utils"; // Assuming you have a cn utility
 import "./globals.css";
 import { Toaster } from "sonner";
+import Head from "next/head";
+// import Script from "next/script";
 
 // Mono Font Setup
 const geistMono = localFont({
@@ -65,8 +67,7 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "Selam Home & Office Cleaning Services",
   telephone: "+971505979288",
-  url: "https://selam-cleaning-service.vercel.app", // IMPORTANT: Change this
-  image: "https://selam-cleaning-service.vercel.app/opengraph-image.png", // IMPORTANT: Change this
+  url: "/",
   areaServed: ["Sharjah", "Dubai"],
   openingHours: "Mo-Su 06:00-18:00",
   priceRange: "AED 25-35 per hour",
@@ -82,6 +83,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      {/* <Script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "Selam Home & Office Cleaning Services",
+          "telephone": "+971505979288",
+          "url": "/",
+          "areaServed": ["Sharjah", "Dubai"],
+          "openingHours": "Mo-Su 06:00-18:00",
+          "priceRange": "AED 25-35 per hour",
+          "description": "Professional home and office cleaning services in Sharjah and Dubai.",
+          "serviceType": "Home & Office Cleaning"
+          }
+          </Script> */}
       <body
         className={cn(
           "antialiased font-sans", // font-sans will now use the plusJakartaSans variable from tailwind.config.js
@@ -90,6 +105,51 @@ export default function RootLayout({
         )}
       >
         {/* Add JSON-LD to the head of the document */}
+        <Head>
+          <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+          />
+          <title>Selam Home & Office Cleaning Services | Sharjah & Dubai</title>
+          <meta
+            name="description"
+            content="Professional home and office cleaning in Sharjah & Dubai. Reliable, detailed, flexible scheduling. Call +971 50 597 9288 or WhatsApp to book."
+          />
+          <meta name="author" content="Selam Home & Office Cleaning Services" />
+          <link rel="canonical" href="/" />
+
+          <meta
+            property="og:title"
+            content="Selam Home & Office Cleaning Services"
+          />
+          <meta
+            property="og:description"
+            content="Top-quality home and office cleaning in Sharjah & Dubai. Book now: +971 50 597 9288"
+          />
+          <meta property="og:type" content="website" />
+          <meta
+            property="og:image"
+            content="https://lovable.dev/opengraph-image-p98pqg.png"
+          />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@lovable_dev" />
+          <meta
+            name="twitter:image"
+            content="https://lovable.dev/opengraph-image-p98pqg.png"
+          />
+
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossOrigin="anonymous"
+          />
+          <link
+            href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet"
+          />
+        </Head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
