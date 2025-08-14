@@ -18,4 +18,4 @@ Allow: /
 Disallow: /_next/
 
 # Point to the sitemap
-Sitemap: https://your-production-domain.com/sitemap.xml
+Sitemap: https://selam-cleaning-service.vercel.app/sitemap.xml

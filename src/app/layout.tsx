@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   description:
     "Professional home and office cleaning in Sharjah & Dubai. Reliable, detailed, flexible scheduling. Call +971 50 597 9288 or WhatsApp to book.",
   authors: [{ name: "Selam Home & Office Cleaning Services" }],
-  metadataBase: new URL("https://your-production-domain.com"), // IMPORTANT: Change this to your actual domain
+  metadataBase: new URL("https://selam-cleaning-service.vercel.app"), // IMPORTANT: Change this to your actual domain
   alternates: {
     canonical: "/",
   },
@@ -65,8 +65,8 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "Selam Home & Office Cleaning Services",
   telephone: "+971505979288",
-  url: "https://your-production-domain.com", // IMPORTANT: Change this
-  image: "https://your-production-domain.com/opengraph-image.png", // IMPORTANT: Change this
+  url: "https://selam-cleaning-service.vercel.app", // IMPORTANT: Change this
+  image: "https://selam-cleaning-service.vercel.app/opengraph-image.png", // IMPORTANT: Change this
   areaServed: ["Sharjah", "Dubai"],
   openingHours: "Mo-Su 06:00-18:00",
   priceRange: "AED 25-35 per hour",
