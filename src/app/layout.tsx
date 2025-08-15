@@ -31,6 +31,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "/",
   },
+
   openGraph: {
     title: "Selam Home & Office Cleaning Services",
     description:
