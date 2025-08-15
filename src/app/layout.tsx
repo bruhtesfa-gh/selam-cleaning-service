@@ -48,13 +48,13 @@ export const metadata: Metadata = {
     locale: "en_US",
     type: "website",
   },
-  twitter: {
-    card: "summary_large_image",
-    title: "Selam Home & Office Cleaning Services | Sharjah & Dubai",
-    description: "Professional home and office cleaning in Sharjah & Dubai.",
-    // creator: "@your_twitter_handle", // Optional: Add your Twitter handle
-    images: ["/twitter-image.png"], // Place your Twitter image in the /public directory
-  },
+  // twitter: {
+  //   card: "summary_large_image",
+  //   title: "Selam Home & Office Cleaning Services | Sharjah & Dubai",
+  //   description: "Professional home and office cleaning in Sharjah & Dubai.",
+  //   // creator: "@your_twitter_handle", // Optional: Add your Twitter handle
+  //   images: ["/twitter-image.png"], // Place your Twitter image in the /public directory
+  // },
   // Structured Data (JSON-LD) for SEO
   verification: {
     // google: 'your-google-verification-code', // Optional: For Google Search Console
