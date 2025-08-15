@@ -4,7 +4,7 @@ import localFont from "next/font/local";
 import { cn } from "@/lib/utils"; // Assuming you have a cn utility
 import "./globals.css";
 import { Toaster } from "sonner";
-import Head from "next/head";
+// import Head from "next/head";
 // import Script from "next/script";
 
 // Mono Font Setup
