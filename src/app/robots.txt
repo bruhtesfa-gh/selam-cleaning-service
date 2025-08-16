@@ -18,4 +18,4 @@ Allow: /
 Disallow: /_next/
 
 # Point to the sitemap
-Sitemap: https://www.selam-cleaning.com/sitemap.xml
+Sitemap: https://selam-cleaning.com/sitemap.xml
