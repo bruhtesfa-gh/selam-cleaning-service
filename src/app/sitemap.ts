@@ -2,7 +2,7 @@ import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // IMPORTANT: Change this to your actual production domain
-  const baseUrl = "https://selam-cleaning-service.vercel.app";
+  const baseUrl = "https://www.selam-cleaning.com";
 
   return [
     {

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   description:
     "Professional home and office cleaning in Sharjah & Dubai. Reliable, detailed, flexible scheduling. Call +971 50 597 9288 or WhatsApp to book.",
   authors: [{ name: "Selam Home & Office Cleaning Services" }],
-  metadataBase: new URL("https://selam-cleaning-service.vercel.app"), // IMPORTANT: Change this to your actual domain
+  metadataBase: new URL("https://www.selam-cleaning.com"), // IMPORTANT: Change this to your actual domain
   alternates: {
     canonical: "/",
   },
