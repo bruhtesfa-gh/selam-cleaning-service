@@ -59,7 +59,7 @@ export const metadata: Metadata = {
   },
   // Structured Data (JSON-LD) for SEO
   verification: {
-    // google: 'your-google-verification-code', // Optional: For Google Search Console
+    google: "obL2sUFdYn9zH9BJH739vxXbXgB6tViXUGW3dSYwU3Q", // Optional: For Google Search Console
   },
 };
 
